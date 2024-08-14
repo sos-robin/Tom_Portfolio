@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 def home(request):
     
-    return render(request, 'Portfolio//index.html')
+    return render(request, 'Portfolio/index.html')
 
 def About(request):
     
