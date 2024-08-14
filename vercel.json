@@ -1,8 +1,11 @@
 {
+<<<<<<< HEAD
 
+=======
+>>>>>>> efe42a339669e9f1d05e3a8b23c57125d4a78f5b
     "builds": [
         {
-            "src": "Portfolio/wsgi.py",
+            "src": "tom_portfolio/wsgi.py",
             "use": "@vercel/python",
             "config": { "maxLambdaSize": "50mb", "runtime": "python3.9" }
         },
@@ -22,7 +25,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "Portfolio/wsgi.py"
+            "dest": "tom_portfolio/wsgi.py"
         }
     ]
 }
